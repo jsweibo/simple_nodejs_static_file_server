@@ -1,0 +1,30 @@
+{
+  "name": "simple_nodejs_static_file_server",
+  "version": "1.0.0",
+  "description": "simple nodejs static file server",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/simple_nodejs_static_file_server.git"
+  },
+  "author": "jsweibo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsweibo/simple_nodejs_static_file_server/issues"
+  },
+  "homepage": "https://github.com/jsweibo/simple_nodejs_static_file_server#readme",
+  "dependencies": {
+    "mime": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
