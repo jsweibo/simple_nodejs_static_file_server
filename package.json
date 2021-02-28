@@ -1,0 +1,31 @@
+{
+  "name": "simple_nodejs_static_file_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint index.js",
+    "prettier": "prettier --write index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/simple_nodejs_static_file_server.git"
+  },
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/simple_nodejs_static_file_server/issues"
+  },
+  "homepage": "https://github.com/jsweibo/simple_nodejs_static_file_server#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "mime": "^2.5.2"
+  }
+}

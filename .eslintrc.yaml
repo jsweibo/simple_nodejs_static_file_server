@@ -1,0 +1,13 @@
+root: true
+env:
+  node: true
+  es6: true
+parserOptions:
+  ecmaVersion: 10
+plugins:
+  - prettier
+rules:
+  prettier/prettier: error
+extends:
+  - eslint:recommended
+  - prettier
